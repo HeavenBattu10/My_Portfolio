@@ -76,13 +76,13 @@ function spawnSpark(x, y) {
 ════════════════════════════════════ */
 const typedEl = document.getElementById('typed-text');
 if (typedEl) {
-  const PHRASES = [
-    'Software Developer',
-    'Java Engineer',
-    'ML Enthusiast',
-    'Frontend Builder',
-    'Problem Solver',
-  ];
+const PHRASES = [
+  'Junior Consultant',
+  'ERPNext Developer',
+  'Frappe Developer',
+  'Backend Developer',
+  'Java Developer',
+];
   let pi=0, ci=0, del=false;
   (function tick() {
     typedEl.textContent = del
